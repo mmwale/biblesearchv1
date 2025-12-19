@@ -1,0 +1,36 @@
+{
+  "name": "Document",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Document title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description"
+    },
+    "file_url": {
+      "type": "string",
+      "description": "URL to the file"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Study Guide",
+        "Commentary",
+        "Devotional",
+        "Reference",
+        "Other"
+      ]
+    },
+    "file_size": {
+      "type": "string",
+      "description": "File size"
+    }
+  },
+  "required": [
+    "title",
+    "file_url"
+  ]
+}

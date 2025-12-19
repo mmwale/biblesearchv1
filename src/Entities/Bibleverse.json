@@ -1,0 +1,41 @@
+{
+  "name": "BibleVerse",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "enum": [
+        "KJV",
+        "NKJV",
+        "NIV",
+        "ESV",
+        "ISV",
+        "ASV"
+      ],
+      "description": "Bible version"
+    },
+    "book": {
+      "type": "string",
+      "description": "Book name"
+    },
+    "chapter": {
+      "type": "number",
+      "description": "Chapter number"
+    },
+    "verse": {
+      "type": "number",
+      "description": "Verse number"
+    },
+    "text": {
+      "type": "string",
+      "description": "Verse text"
+    }
+  },
+  "required": [
+    "version",
+    "book",
+    "chapter",
+    "verse",
+    "text"
+  ]
+}
