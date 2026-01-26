@@ -1,4 +1,4 @@
-# Bible Search 🔎📖
+# Bible Search 🔎📖 https://biblewordsearch.netlify.app
 
 ![build-badge](https://img.shields.io/badge/build-passing-brightgreen) ![license-badge](https://img.shields.io/badge/license-MIT-blue)
 
